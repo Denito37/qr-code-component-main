@@ -14,6 +14,7 @@ body{
     max-width: 30vw;
     max-height: 75vh;
     background-color: white;
+    padding-bottom: 12px;
     border-radius: 12px;
 }
 img{
@@ -21,22 +22,21 @@ img{
     margin: 1vw;
     border-radius: 12px;
 }
-.heading{
-    color: hsl(218, 44%, 22%);
-    font-weight: 700 ;
-    font-size: 19px;
+.text{
+    padding: 8px;
+    margin: 8px;
     max-width: 28vw;
     text-align: center;
-    margin: 15px;
+}
+.heading{
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    font-size: 19px;
 }
 p{
     color: hsl(220, 15%, 55%);
     font-weight: 400;
     font-size: 15px;
-    max-width: 28vw;
-    text-align: center;
-    margin: 8px;
-    padding: 8px;
 }
 
 @media only screen and (max-width: 425px) {
@@ -53,10 +53,7 @@ p{
     img{
         max-width: 76vw;
     }
-    .heading{
-        max-width: 76vw;
-    }
-    p{
+    .text{
         max-width: 76vw;
     }
     
